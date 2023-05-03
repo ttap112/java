@@ -37,7 +37,7 @@ public class Fir {
 				}
 			}
 		temp= total[i];
-		total[i]=min;
+		total[i]=total[min];
 		total[min] = temp;
 		
 		System.out.print("배열 정렬 후: ");
